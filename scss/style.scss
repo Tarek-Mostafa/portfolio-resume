@@ -1,0 +1,127 @@
+@import 'vendors/_bootstrap.scss';
+
+/* Variables */
+
+$primary-color: #3b5a76;
+$background-color: #ededed;
+$text-color: #363636;
+$font: 16px;
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', Arial, Tahoma;
+	background: $background-color;
+	font-size: $font;
+}
+
+h2{
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	font-size: 1.5em;
+}
+
+.row{
+	margin-bottom: 50px;
+}
+
+.primary, strong, h2{
+	color: $primary-color;
+}
+
+.container-main{
+	margin-top: 80px;
+	background-color: white;
+	padding: 0 30px 30px 30px;
+	font-size: $font;
+}
+
+header{
+	min-height: 100px;
+	overflow: auto;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	text-align: center;
+	line-height: 2em;
+}
+
+header h1{
+	padding: 20px 0 0 0;
+	font-size: 36px;
+}
+
+header h1 strong{
+	text-decoration: underline;
+}
+
+header h1 span{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.profile-img{
+	width: 160px;
+	display: block;
+	margin: auto;
+	margin-top: -80px;
+}
+
+.line{
+	max-width: 100%;
+}
+
+.contact-list{
+	padding: 0;
+	margin: 0;
+}
+
+.contact-list li{
+	list-style: none;
+	line-height: 3.2em;
+	font-weight: bold;
+}
+
+.contact-list span{
+	display: block;
+	margin: 0;
+	padding: 0;
+	line-height: 0.1em;
+	margin-left: 35px;
+	color: lightgray;
+	font-size: 15px;
+}
+
+.media{
+	background: $background-color;
+	padding: 10px;
+}
+
+.media-left{
+	width: 95pc;
+}
+
+.work-list{
+	margin: 0;
+	padding: 0;
+}
+
+.work-list li{
+	list-style: none;
+	float: left;
+	padding: 0 10px 0 20px;
+	margin-bottom: 30px;
+}
+
+footer{
+	background: $primary-color;
+	color: white;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+footer p{
+	padding-top: 15px;
+}
